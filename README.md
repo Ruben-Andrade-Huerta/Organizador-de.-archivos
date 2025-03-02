@@ -14,6 +14,7 @@ Este proyecto es una herramienta para organizar archivos en diferentes carpetas 
 - `shutil` (incluido en la biblioteca estándar de Python)
 - `os` (incluido en la biblioteca estándar de Python)
 - `logging` (incluido en la biblioteca estándar de Python)
+- `PyInstaller` (para crear el ejecutable)
 
 ## Instalación
 
@@ -24,6 +25,12 @@ Este proyecto es una herramienta para organizar archivos en diferentes carpetas 
     cd organizador-archivos
     ```
 
+2. Instala `PyInstaller` si planeas crear un ejecutable:
+
+    ```bash
+    pip install pyinstaller
+    ```
+
 ## Uso
 
 ### Ejecución del Script
@@ -32,3 +39,13 @@ Para ejecutar el script directamente con Python:
 
 ```bash
 python file_organizer.py
+
+Ejemplo de Uso
+El script moverá archivos de las carpetas de origen a las carpetas de destino según su extensión. Por ejemplo, los archivos .jpg y .png se moverán a la carpeta de imágenes.
+
+Contribuciones
+Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request para discutir cualquier cambio que te gustaría hacer.
+
+Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
